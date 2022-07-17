@@ -1,0 +1,303 @@
+body {
+    background-image: url(../imagenes/fondoarena.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+main {
+    width: 1081px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid sienna;
+    font-family: cambria;
+    background-color: BurlyWood;
+}
+header {
+    background-color: #9c4040;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Cambria;
+}
+nav ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+nav ul li a {
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+main nav {
+    background-color: SandyBrown;
+}
+main nav ol {
+    padding-bottom: 10px;
+    margin-right: 40px;
+}
+main nav ol li {
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 5px;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: 1px solid chocolate;
+    background-color: Sienna;
+}
+main nav ol li a {
+    text-decoration: none;
+    color: white;
+
+}
+.estas {
+    color: black;
+}
+#frame {
+    width: 1000px;
+    height: 400px;
+}
+#fotos {
+    width: 1081px;
+    margin: auto;
+}
+a {
+    cursor:url(../recursos/piramide1.png),default;
+}
+a:hover {
+    color: black;
+}
+section > h2 {
+    color:SaddleBrown;
+    text-align: center;
+    font-size: 30px;
+}
+#menu1 {
+    margin-right: 60px;
+
+}
+#menu2 {
+    margin-right: 40px;
+    margin-left: 30px;
+}
+h1 {
+    color: white;
+}
+main > h1 {
+    color: maroon;
+}
+h3 {
+    font-size: 25px;
+}
+h3 + p {
+    font-weight: bold;
+}
+h2 + p {
+    font-size: 18px;
+}
+#pad {
+    padding-top: 40px;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+#padd {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.linea {
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    border: chocolate 1px solid;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+#guiza {
+    background-image: url(../imagenes/camello.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 145px;
+    padding-top: 207px;
+    margin-top: 20px;
+    
+}
+#libros {
+    background-image: url(../imagenes/libros.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 125px;
+    padding-top: 185px;
+}
+#pq {
+    background-image: url(../imagenes/puerta.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 125px;
+    padding-top: 203px;
+}
+.none {
+    display: none;
+}
+.series {
+    display: inline-block;
+    width: 200px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding-left: 70px;
+    margin-bottom: 50px;
+}
+#esfinge {
+    margin-bottom: 55px;
+}
+#fondo {
+    background-image: url(../imagenes/textura.jpg);
+}
+#tesoro {
+    margin-left: -73px;
+    margin-top: 30px;
+}
+#secretos {
+    margin-left: -50px;
+    margin-top: 40px;
+}
+#historia {
+    margin-left: -25px;
+}
+.turismo {
+    display: inline-block;
+    width: 400px;
+}
+#parrafo1 {
+    margin-bottom: 90px;
+}
+#desierto {
+    margin-bottom: 50px;
+}
+div > img {
+    border: 2px solid maroon;
+}
+ol li:nth-child(1) {
+    margin-left: -20px;
+    margin-right: 50px;
+}
+ol li:nth-child(2) {
+    margin-bottom: 40px;
+    
+}
+ol li:nth-child(3) {
+    margin-right: 50px;
+    margin-left: -20px;
+    margin-bottom: 40px;
+}
+ol li:nth-child(5) {
+    margin-right: 50px;
+    margin-left: -20px;
+
+}
+.mapa {
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+textarea {
+    resize: none;
+}
+#contacto {
+    background-image: url(../imagenes/piramides.jpg);
+}
+#bottom {
+    margin-bottom: 72px;
+}
+#bottom1 {
+    margin-bottom: 37px;
+}
+#bottom2 {
+    margin-bottom: 35px;
+}
+#bottom3 {
+    margin-bottom: 37px;
+}
+.columnas {
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: lightgoldenrodyellow;
+    border: sienna 2px solid;
+}
+form div {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+    background-color:#993333;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 10px;
+    font-family: cambria;
+    font-weight: bold;
+    color: white;
+}
+#redes{ 
+	margin: 0 0 20px 0; 
+	padding: 20px; 
+	list-style: none; 
+}
+
+#redes li{
+	display: inline-block;
+}
+
+#redes li a { 
+    background: url(../iconos/sprite.png) left top no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px; overflow: hidden;
+    font-size: 0%;
+}
+#redes #email {
+    background-position: 0px 0px;
+}
+#redes #fb {
+    background-position: -48px 0px;
+}
+#redes #ig {
+    background-position: -96px 0px; 
+}
+form > p {
+    text-align: left;
+    margin-left: 330px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+form p:nth-of-type(7) {
+    margin-left: 550px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+footer > ul {
+    font-size: 18px;
+    font-family: cambria;
+}
+.delete {
+    display: none;
+}

@@ -1,0 +1,159 @@
+body {
+    background-color: white
+}
+header {
+    background-color: #9c4040;
+    text-align: center;
+    font-family: Cambria;
+    width: 800px;
+    margin-left: -10px;
+}
+#gracias {
+    background-color: burlywood;
+    font-size: 25px;
+    padding: 15px;
+    border: sienna 2px solid; 
+    margin: auto;
+    width: 400px;
+}
+main {
+    margin: auto;
+    font-family: cambria;
+    padding-bottom: 30px;
+    margin-left: 10px;
+}
+nav ol li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav ol li a {
+    font-size: 25px;
+}
+nav ul {
+    width: 500px;
+    text-align: center;
+    margin-left: 110px;
+}
+nav ul li {
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a {
+    font-size: 20px;
+}
+.texto {
+    font-size: 20px;
+}
+.borrar {
+    display: none;
+}
+.linea {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mapa {
+    width: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.turismo {
+    display: inline-block;
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#esfinge {
+    padding-bottom: 70px;
+}
+#museo {
+    padding-bottom: 43px;
+}
+#parques {
+    padding-bottom: 57px;
+}
+#titulomapa {
+    margin-bottom: 105px;
+}
+#frame {
+    width: 350px;
+}
+#form {
+    font-size: 30px;
+}
+form {
+    background-color: burlywood;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+form div {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+}
+footer {
+    text-align: center;
+    background-color:#993333;
+    width: 800px;
+    margin: auto;
+    margin-bottom:-20px;
+    margin-left: -20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-family: cambria;
+    color: white;
+}
+#redes{ 
+	margin: 0 0 20px 0; 
+	padding: 20px; 
+	list-style: none; 
+}
+
+#redes li{
+	display: inline-block;
+}
+
+#redes li a { 
+    background: url(../iconos/sprite.png) left top no-repeat;
+    display: inline-block;
+    width: 48px;
+    height: 48px; overflow: hidden;
+    font-size: 0%;
+}
+#redes #email {
+    background-position: 0px 0px;
+}
+#redes #fb {
+    background-position: -48px 0px;
+}
+#redes #ig {
+    background-position: -96px 0px; 
+}
+footer > h1 {
+    font-size: 28px;
+}
+footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+footer > ul {
+    font-size: 25px;
+    font-family: cambria;
+}

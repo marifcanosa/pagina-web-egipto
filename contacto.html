@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8"/>
+    <title>Contacto</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="css/estilosparcial2.css" media="screen and (min-width:800px)" />
+	
+	<link href="css/tablet.css" rel="stylesheet" media="screen and (max-width:800px)" />
+	
+	<link href="css/mobile.css" rel="stylesheet" media="screen and (max-width:480px)" />
+
+</head>
+<body>
+    <header>
+        <h1>Contactános</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a> </li>
+                <li><a href="turismo.html">¿Qué hacer en Guiza?</a></li>
+                <li><a href="parasabermas.html">Para saber más</a></li>
+                <li><a href="datos.html" > Datos Curiosos </a></li>
+                <li><a href="#" class="estas">Contactános</a></li>
+            </ul>
+        </nav>
+        </header>
+
+    <main id="contacto">
+        <section>
+            <h2 id="form">¡Inscribite para recibir los mejores paquetes de viajes a Guiza, Egipto!</h2>
+            <form action="procesar.php" method="post" enctype="multipart/form-data" >
+                <div>Nombre y apellido: <input type="text" name="nombre"/> </div>
+                <div>* Email: <input type="email" name="email" required placeholder="egipto@gmail.com"/> </div> 
+                <div>Fecha de interés a viajar: <input type="date" name="fechainteres"/> </div>
+                <div>Posibilidad de cantidad de personas interesadas en viajar:
+                  <label> <input type="checkbox" name="unapersona" value="uno"/>1 </label> 
+                  <label> <input type="checkbox" name="dosotrespersonas" value="dos/tres"/> 2 o 3 </label>
+                  <label> <input type="checkbox" name="cuatroocincopersonas" value="cuatro/cinco" /> 4 o 5 </label> 
+                  <label> <input type="checkbox" name="masdecincopersonas" value="mas de cinco"/> Más de 5 </label>
+                </div> 
+                <div>* Número de teléfono: <input type="number" name="telefono" required/> </div>
+                <div> Inserte una imagen de su DNI: <input type="file" name="archivo" accept="image/jpg" /> </div>
+                <div> Déjanos tu opinión o lo que te interese saber:  <textarea name="opinion" rows="4" cols="25"></textarea> </div>
+                <div><input type="submit" value="Enviar" /></div> 
+            </form>
+
+
+
+
+
+
+        </section>
+    </main>
+
+</body>
+</html>

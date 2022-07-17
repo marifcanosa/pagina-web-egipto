@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Bienvenidos</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="css/estilosparcial2.css" media="screen and (min-width:800px)" />
+	
+	<link href="css/tablet.css" rel="stylesheet" media="screen and (max-width:800px)" />
+	
+	<link href="css/mobile.css" rel="stylesheet" media="screen and (max-width:480px)" />
+		 
+    <script src="recursos/prefixfree.min.js" > </script>
+	<script src="recursos/jquery.min.js"></script>
+	<script src="recursos/jquery.cycle2.min.js"></script>
+
+	<script src="recursos/jquery.cycle2.flip.min.js"></script>
+
+	<script>
+		$( '#fotos' ).cycle( {
+			fx: 'flip',
+			speed: 1000,
+			timeout: 2000,
+			tileCount: 50,
+			
+			
+		} );
+	</script>
+	<style>
+	.cycle-pager { font-size: 50px; cursor: pointer; margin-top: 10px; }
+	.cycle-pager .cycle-pager-active{ color: rgb(80, 16, 16); }
+	</style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>¡Bienvenidos a Guiza, Egipto!</h1>
+            <div id="fotos" class="hidden">
+            <div class="cycle-pager"></div>
+                <img src="imagenes/piramideslejos.jpg" alt="Piramide desde lejos" />
+                <img src="imagenes/estructura.jpg" alt="Estructura" />
+                <img src="imagenes/camellopiramide.jpg" alt="Camello" />
+                <img src="imagenes/tutankamon.jpg" alt="Tutankamon"/>
+            </div>
+        </div>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="estas"> Home </a> </li>
+            <li><a href="turismo.html">¿Qué hacer en Guiza?</a>  </li>
+            <li><a href="parasabermas.html">Para saber más</a></li>
+            <li><a href="datos.html" > Datos Curiosos </a></li>
+            <li><a href="contacto.html">Contactános</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+      <section class="linea" id="guiza">
+        <h2 id="titulo1">Guiza</h2>
+        <p>
+            Es una ciudad de Egipto situada en el Nilo, a unos 20 <abbr title="Kilometros"> km </abbr>  al <abbr title="Sureste"> SE </abbr> del centro de El Cairo. <br/>
+            <strong> Guiza permite retroceder en el tiempo hasta una remota e influyente civilización histórica, </strong> fechada en torno al año 26 a. C. 
+            <span class="borrar"> Es, sin género de dudas, uno de los lugares históricos más conocidos, impresionantes y reconocibles del planeta. </span>
+        </p>
+        <picture>
+            <!-- mobile, hasta 480px -->
+            <source srcset="imagenes/guizamobile.jpg" media="(max-width: 480px)" />
+            <!-- mobile, hasta 800px -->
+            <source srcset="imagenes/guizatablet.jpg" media="(max-width: 800px)" />
+            <!-- sin el media carga desde los 800px -->
+            <img src="imagenes/" alt="Guiza" class="none"/>
+        </picture>
+        <br/>
+      </section>
+      <section class="linea" id="libros">
+        <h2>Un poco de su historia</h2>
+        <p >
+            Con más de cinco mil años, <em>la historia de Egipto es la más larga y documentada del mundo.</em>
+            Los primeros habitantes se establecieron en las riberas del Nilo.
+            Estos primeros indígenas, <em>eran gobernados por seres "divinos".</em>
+            <span class="borrar">La historia de las dinastías egipcias ha dividido en tres grandes periodos sobradamente conocidos: Imperio Antiguo, Imperio Medio e Imperio Nuevo.</span> 
+       </p>
+        <picture>
+        <!-- mobile, hasta 480px -->
+        <source srcset="imagenes/estructuramobile.jpg" media="(max-width: 480px)" />
+        <!-- mobile, hasta 800px -->
+        <source srcset="imagenes/estructuratablet.jpg" media="(max-width: 800px)" />
+        <!-- sin el media carga desde los 800px -->
+        <img src="imagenes/" alt="Historia" class="none" />
+        </picture>
+    </section>
+    <section class="linea" id="pq">
+        <h2>¿Por qué visitar Guiza?</h2>
+        <p >
+            <strong> Egipto ofrece una apasionante mezcla entre aventura, cultura y misterio </strong> que invita a todo aquel que lo visita a 
+            perderse en sus colosales templos y verse envuelto entre el bullicio de El Cairo.
+    
+            <span class="borrar"><em> Egipto es un país muy tranquilo y la gente, en general, es muy amable. </em></span>  
+
+            Como hace más de dos mil años dijo el historiador griego <cite>Heródoto</cite> <q> "quien no ha visto Egipto no ha visto el mundo".</q>
+        </p>
+        <picture>
+            <!-- mobile, hasta 480px -->
+            <source srcset="imagenes/tutmobile.jpg" media="(max-width: 480px)" />
+            <!-- mobile, hasta 800px -->
+            <source srcset="imagenes/tuttablet.jpg" media="(max-width: 800px)" />
+            <!-- sin el media carga desde los 800px -->
+            <img src="imagenes/" alt="Por qué" class="none" />
+        </picture>
+
+    </section>
+    <section class="mapa">
+          <h2 id="titulomapa">¿Dónde queda Guiza?</h2>
+          <div >
+            <iframe id="frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110550.39964813001!2d31.11960275764731!3d30.01676975648693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458469235579697%3A0x4e91d61f9878fc52!2sGuiza%2C%20El%20Omraniya%2C%20Giza%2C%20Egipto!5e0!3m2!1ses!2sar!4v1622210183885!5m2!1ses!2sar" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+    </section>
+       
+
+
+    </main>
+    <footer>
+        <h1>Datos del Autor:</h1>
+        <ul>
+            <li>Nombre: Marianela Fernandes Canosa</li>
+            <li>Materia: Maquetado y Desarrollo Web</li>
+            <li>Docente: Mabel Garcia</li>
+            <li>TP de 1° Cuatrimestre 2021, Escuela Da Vinci.</li>
+        </ul>
+        <ul id="redes">
+			<li><a id="fb" href="https://www.facebook.com/marianela.fernandescanosa" target="_blank">Facebook</a></li>
+			<li><a id="ig" href="https://www.instagram.com/marifcanosa/?hl=es-la" target="_blank">Instagram</a></li>
+			<li><a id="email" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">Email</a></li>
+		</ul>   
+    </footer>
+
+
+
+
+</body>
+</html>
